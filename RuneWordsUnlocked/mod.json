@@ -1,0 +1,58 @@
+{
+  "name": "Rune Words Unlocked",
+  "description": "Enables Rune Words to work on more items",
+  "author": "Shadedness",
+  "website": "https://",
+  "version": "1.4.2",
+  "config": [
+    {
+      "id": "enableLadder",
+      "type": "checkbox",
+      "name": "Enable ladder runewords",
+      "description": "Enable ladder-only runewords to be available in offline games.",
+      "defaultValue": true
+    },
+    {
+      "id": "weaponsUnlocked",
+      "type": "checkbox",
+      "name": "No weapon restrictions",
+      "description": "Enable to allow any weapon rune word to work in all weapons.",
+      "defaultValue": true
+    },
+    {
+      "id": "shieldsUnlocked",
+      "type": "checkbox",
+      "name": "No shield restrictions",
+      "description": "Enable to allow any shield rune word to work in all shield types.",
+      "defaultValue": true
+    },
+    {
+      "id": "shieldsToArmor",
+      "type": "checkbox",
+      "name": "Shield runewords on armor",
+      "description": "Enable to allow shield runewords to work in armor. If 'No shield restrictions' enabled, this will also include Paladin Shield runewords.",
+      "defaultValue": true
+    },
+    {
+      "id": "armorToShields",
+      "type": "checkbox",
+      "name": "Armor runewords on shields",
+      "description": "Enable to allow armor runewords to work in shields.",
+      "defaultValue": true
+    },
+    {
+      "id": "helmsToShields",
+      "type": "checkbox",
+      "name": "Helm runewords on shields",
+      "description": "Enable to allow helm runewords to work in shields.",
+      "defaultValue": true
+    },
+    {
+      "id": "armorUnlocked",
+      "type": "checkbox",
+      "name": "No armor restrictions",
+      "description": "Enable to allow any armor or helm rune word to work in all armor types. You'll need a separate mod to enable sockets in other item types.",
+      "defaultValue": true
+    }
+  ]
+}
